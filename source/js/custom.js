@@ -19,9 +19,12 @@ $(function() {
         minSlides: 2,
         maxSlides: 2,
         slideWidth: 145,
-        slideMargin:10,
+        slideMargin: 10,
         moveSlides: 1
     });
+    var myLazyLoad = new LazyLoad({
+        elements_selector: ".story__thumb img"
+    });
     // DO NOT run randomImg() function in live site;
-    randomImg();
+    // randomImg();
 });

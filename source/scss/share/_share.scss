@@ -141,10 +141,8 @@
     }
 }
 
-.FloatLeft {
-    @extend .pull-left;
-}
-
-.FloatRight {
-    @extend .pull-right;
+/*lazy load image */
+img.loading {
+    background-color: #ddd;
+    border: 1px solid #ccc;
 }
