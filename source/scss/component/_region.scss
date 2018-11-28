@@ -22,7 +22,8 @@
         color: $brand-primary;
         font-family: $font-family-serif;
         font-weight: bold;
-        padding-left: 16px;
+        padding-left: 12px;
+        letter-spacing: -1px;
 
         &::before {
             content: '';
