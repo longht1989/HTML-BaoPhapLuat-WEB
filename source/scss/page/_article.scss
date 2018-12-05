@@ -581,6 +581,26 @@
             font-weight: bold;
             text-align: right;
         }
+
+        /*fb share img*/
+        .fbShareImage {
+            position: relative;
+        }
+
+        .fb-share-button {
+            position: absolute;
+            bottom: 10px;
+            left: 10px;
+            margin: 0;
+            background: #fff5;
+            padding: 2px 5px;
+            line-height: 1;
+            border: 1px solid #0003;
+            transition: all 0.2s linear;
+            &:hover{
+                background: #fff9;
+            }
+        }
     }
 
     /* article related listing */
