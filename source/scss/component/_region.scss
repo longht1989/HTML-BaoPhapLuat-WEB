@@ -370,7 +370,9 @@
     .desc {
         @include clearfix;
         opacity: 0.6;
-
+        font-size: 14px;
+        font-family: $font-family-sans-serif;
+        font-weight: normal;
         &+.desc {
             margin-top: 4px;
         }
