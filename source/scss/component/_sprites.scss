@@ -2,7 +2,7 @@
 
 [class^="sprite-"] {
     display: inline-block;
-    background: url(../img/sprites.svg) no-repeat;
+    background: url(../img/sprites.svg?v=1.1) no-repeat;
     cursor: pointer;
     vertical-align: middle;
 }
@@ -96,5 +96,23 @@
         &:hover {
             background-position-y: -50px;
         }
+    }
+
+    &-video {
+        width: 12px;
+        height: 12px;
+        background-position: -50px -150px;
+    }
+
+    &-photo {
+        width: 14px;
+        height: 12px;
+        background-position: 0px -150px;
+    }
+
+    &-audio {
+        width: 12px;
+        height: 12px;
+        background-position: -100px -150px;
     }
 }

@@ -177,7 +177,7 @@
         }
 
         /* -------------- */
-        .aside-img {
+        .half-img {
             margin-bottom: 15px;
             width: 50%;
             clear: both;
@@ -208,14 +208,14 @@
             }
         }
 
-        .aside-img.pull-right {
-            margin-left: 30px;
+        .half-img.is-right {
+            margin-left: 20px;
             margin-right: 0px;
             float: right;
         }
 
-        .aside-img.pull-left {
-            margin-right: 30px;
+        .half-img.is-left {
+            margin-right: 20px;
             float: left;
         }
 
@@ -297,6 +297,7 @@
         /* -------------- */
         .box-relate,
         .notification {
+            clear: both;
             padding: 12px;
             background: #F0F0F0;
             border: 1px dashed $brand-primary;
@@ -328,11 +329,12 @@
 
         /* quote */
         .quote,
-        .quotes {
+        .quotes,
+        .inner-quote {
             font-family: $font-family-serif;
             clear: both;
             border-radius: 5px;
-            border: 2px solid $brand-primary;
+            border: 1px solid $brand-primary;
             padding: 16px 16px 24px 24px;
             position: relative;
             margin-top: 25px;
@@ -348,17 +350,19 @@
                 left: 0;
                 top: 0;
                 background: url(../img/Sprites.svg) #fff;
-                background-position: -200px 0px;
+                background-position: 0px -100px;
                 transform: translate(-50%, -50%);
             }
 
-            &.pull-left {
+            &.pull-left,
+            &.fl-left {
                 width: 50%;
                 float: left;
                 margin-right: 25px;
             }
 
-            &.pull-right {
+            &.pull-right,
+            &.fl-right {
                 width: 50%;
                 float: right;
                 margin-left: 25px;
@@ -735,6 +739,7 @@
 
             .half-img {
                 width: 400px;
+
                 &.is-left {
                     margin-left: -200px;
                     float: left;
