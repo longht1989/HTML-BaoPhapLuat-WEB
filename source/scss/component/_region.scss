@@ -231,6 +231,13 @@
         }
     }
 
+    &--lightgrey {
+        margin: 16px 0 0;
+        background-color: #f7f7f7;
+        padding: 16px 16px 0;
+        border-radius: 5px;
+    }
+
 }
 
 // ads
@@ -373,6 +380,7 @@
         font-size: 14px;
         font-family: $font-family-sans-serif;
         font-weight: normal;
+
         &+.desc {
             margin-top: 4px;
         }
