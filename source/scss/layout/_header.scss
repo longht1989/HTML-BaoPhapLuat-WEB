@@ -111,6 +111,29 @@
             z-index: 100;
         }
     }
+
+    &--sm {
+        margin-bottom: 0 !important;
+        border-bottom: 1px solid #eee;
+
+        .topbar {
+            background-color: #f0f0f0;
+            box-shadow: 0px 1px 5px 0 rgba(0, 0, 0, .16);
+
+            .logo {
+                a {
+                    display: block;
+                    max-height: 24px;
+                }
+
+                img {
+                    display: block;
+                    max-height: 24px;
+                    width: auto;
+                }
+            }
+        }
+    }
 }
 
 .navigator {

@@ -717,19 +717,17 @@
     .site-content.is-full & {
         &__header {
             text-align: center;
-            margin-left: auto;
-            margin-right: auto;
-            padding: 0 8px;
-            max-width: 796px;
+        }
 
-            @include breakpoint(md) {
-                max-width: 796px;
-                padding: 0;
-            }
+        &__avatar {
+            margin-top: 0;
         }
 
         &__summary {
             text-align: justify;
+            max-width: 796px;
+            margin-left: auto;
+            margin-right: auto;
         }
 
         &__content {
