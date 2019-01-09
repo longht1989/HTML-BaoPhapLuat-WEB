@@ -383,6 +383,19 @@
             }
         }
 
+        /* Dropcap */
+        .dropcap {
+            &:first-letter {
+                font-size: 54px;
+                line-height: 54px;
+                float: left;
+                margin-right: 8px;
+                color: $brand-primary;
+                font-family: $font-family-serif;
+                padding: 0 4px;
+            }
+        }
+
         /* Slider */
         .slider {
             background-color: #333333;
@@ -717,10 +730,23 @@
     .site-content.is-full & {
         &__header {
             text-align: center;
+
+            &--sm {
+                max-width: 796px;
+                margin-left: auto;
+                margin-right: auto;
+            }
         }
 
         &__avatar {
             margin-top: 0;
+        }
+
+        &__title {
+            margin: 12px 0;
+            max-width: 796px;
+            margin-left: auto;
+            margin-right: auto;
         }
 
         &__summary {
